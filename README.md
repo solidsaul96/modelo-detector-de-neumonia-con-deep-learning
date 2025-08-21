@@ -71,6 +71,8 @@ Para replicar este proyecto, sigue estos pasos:
     ```
     El script se encargará de todo: descargar los datos, entrenar, evaluar y guardar el modelo final (`modelo_detector_neumonia_final.h5`).
 
+    
+
 ---
 
 ## Futuras Mejoras
@@ -78,6 +80,19 @@ Para replicar este proyecto, sigue estos pasos:
 * **Crear un Set de Validación más Robusto:** Dividir el set de entrenamiento para obtener una métrica de validación más estable durante el entrenamiento.
 * **Experimentar con otras Arquitecturas:** Probar modelos como ResNet50 o InceptionV3.
 * **Despliegue:** Empaquetar el modelo en una API con Flask/FastAPI y crear una interfaz web simple con Streamlit para permitir la subida y clasificación de imágenes en tiempo real.
+
+
+---
+
+## Modelo Pre-entrenado
+
+Debido a su tamaño, el modelo entrenado (`.h5`) no está incluido en este repositorio. Puedes descargarlo desde el siguiente enlace:
+
+* **[Descargar Modelo (modelo_detector_neumonia_final.h5)](https://drive.google.com/file/d/1--n_HWd-pPHyBFjh0Euloh3crBje1Iav/view?usp=sharing)**
+
+Una vez descargado, colócalo en la carpeta principal del proyecto para poder usarlo en otros scripts.
+
+---
 
 ---
 
